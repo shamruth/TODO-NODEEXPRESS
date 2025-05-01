@@ -31,8 +31,4 @@ app.post('/delete',(req,res)=>
 
     res.redirect("/todo");
 })
-app.listen(9000,()=>
-{
-    console.log("http://localhost:9000")
-});
 module.exports=app;
